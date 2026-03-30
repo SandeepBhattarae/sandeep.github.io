@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link rel="icon" type="image/avif" href="images/logo1.avif">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"></noscript>
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"></noscript>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    
+     <header class="header">
+        <picture>
+            <source srcset="images/logo1.avif" type="image/avif">
+            <source srcset="images/logo1.webp" type="image/webp">
+            <img src="images/logo1.png" alt="our main logo" class="logo" width="160" height="64" decoding="async" loading="eager"/>
+        </picture>
+
+        <nav class="navbar">
+            <ul class="navbar-lists">
+                <li><a href="/index.html" class="navbar-link home-link">Home</a></li>
+                <li><a href="/about.html" class="navbar-link about-link">About</a></li>
+                <li><a class="navbar-link service-link" href="/service.html">Services</a></li>
+                  <li><a class="navbar-link contact-link" href="/protfolio.html">protfolio</a></li>
+                <li><a class="navbar-link contact-link" href="/contact.html">contact</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-navbar-btn">
+            <ion-icon class="mobile-nav-icon" name="menu-outline"></ion-icon>
+            <ion-icon class="mobile-nav-icon" name="close-outline"></ion-icon>
+        </div>
+    </header>
+
+      <!-- =============================================
+                  our contact us section start
+    ===================================================-->
+
+    <section class="section section-contact">
+        <div class="container">
+            <h2 class="common-heading">Contact Us</h2>
+        </div>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23307.039207519138!2d87.98431636433571!3d26.644220119489106!2m3!1f0!2f0
+        !3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e5baf5bbac5971%3A0xf4e38a45f65be2e7!2sBirtamod!5e0!3m2!1sen!2snp!4v1764162885558!5m2!1sen!2snp"
+         width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<div class="section-contact-main contact-container">
+    <form action="https://formspree.io/f/mnnedwka"
+  method="POST">
+        <div class="grid grid-two-column">
+            <div>
+            <label for="username"></label>
+            <input type="text" name="username" placeholder="username" id="username" autocomplete="off" required>
+            </div>
+
+            <div>
+            <label for="email"></label>
+            <input type="email" name="email" placeholder="email@gmail.com" id="email" autocomplete="off" required>
+            </div>
+        </div>
+
+        <div>
+            <label for="subject"></label>
+            <input type="text" name="subject" placeholder="subject" id="subject" autocomplete="off" required>
+        </div>
+
+        
+        <div>
+            <label for="textarea"></label>
+           <textarea name="textarea" id="textarea" placeholder="Message" autocomplete="off" required cols="30" rows="10" minlength="30"></textarea>
+        </div>
+
+        <div>
+           <input type="submit" name="submit" id="submit" class="btn" value="Send Message">
+        </div>
+    </form>
+</div>
+    </section>
+
+
+    
+    <!-- =============================================
+                  our footer section start
+    ===================================================-->
+
+    <footer class="section-footer section">
+        <div class="container grid grid-four-column">
+            <div class="f-about">
+                <h3>About</h3>
+                <p>
+                    We have tested a number of regestry fix and clean utilities and 
+                    present our top 3 list on our site for your convenience. Hope you
+                    like it.
+                </p>
+            </div>
+            <!-- end -->
+             <div class="f-links">
+                <h3>Link</h3>
+                <ul>
+                    <li>
+                        <span> <ion-icon name="arrow-forward-outline"></ion-icon> </span>
+                        <a href="#">Home</a>
+                    </li>
+
+                     <li>
+                        <span> <ion-icon name="arrow-forward-outline"></ion-icon> </span>
+                        <a href="#">About</a>
+                    </li>
+
+                     <li>
+                        <span> <ion-icon name="arrow-forward-outline"></ion-icon> </span>
+                        <a href="#">Services</a>
+                    </li>
+
+                     <li>
+                        <span> <ion-icon name="arrow-forward-outline"></ion-icon> </span>
+                        <a href="#">Protfolio</a>
+                    </li>
+
+                     <li>
+                        <span> <ion-icon name="arrow-forward-outline"></ion-icon> </span>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+             </div>
+             <!-- end -->
+              <div class="f-services">
+                <h3>Services</h3>
+                <ul>
+                    <li>
+                        <span> <ion-icon name="arrow-forward-outline"></ion-icon> </span>
+                        <a href="#">Web Design</a>
+                    </li>
+
+                     <li>
+                        <span> <ion-icon name="arrow-forward-outline"></ion-icon> </span>
+                        <a href="#">Web Development</a>
+                    </li>
+
+                     <li>
+                        <span> <ion-icon name="arrow-forward-outline"></ion-icon> </span>
+                        <a href="#">Graphic Design</a>
+                    </li>
+
+                     <li>
+                        <span> <ion-icon name="arrow-forward-outline"></ion-icon> </span>
+                        <a href="#">Online Classes</a>
+                    </li>
+
+                     <li>
+                        <span> <ion-icon name="arrow-forward-outline"></ion-icon> </span>
+                        <a href="#">Youtube Course</a>
+                    </li>
+                </ul>
+              </div>
+              <!-- end -->
+               <div class="f-address">
+                <h3>Have a Questions</h3>
+                <address>
+                    <div>
+                        <p>
+                            <span><ion-icon name="location-outline"></ion-icon></span>
+                            Birtamode, Nepal
+                        </p>
+                    </div>
+
+                     <div>
+                        <p>
+                            <span><ion-icon name="call-outline"></ion-icon></span>
+                            <a href="yel:+9779821944418">+977 9821944418</a>
+                        </p>
+                    </div>
+
+                     <div>
+                        <p>
+                            <span><ion-icon name="mail-outline"></ion-icon></span>
+                            <a href="mailto:sandeepbhattarae@gmail.com">sandeepbhattarae@gmail.com</a>
+                        </p>
+                    </div>
+
+                </address>
+               </div>
+        </div>
+
+        <div class="container">
+            <div class="f-social-icons">
+                <a href="https://www.instagram.com/sandeepbhattarae?fbclid=IwY2xjawQ11I9leHRuA2FlbQIxMABicmlkETFwY0FWamJka0lycHVxaHZlc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHvPmiw5s2lYZUGDcaTDfVb0T-c1aDWEvSzz-Mv5wmviW62IogXmBLdYmL66v_aem_b815p8b0AYXONzpm-PDDGg" target="_blank" aria-label="Instagram">
+                    <ion-icon class="icons" name="logo-instagram"></ion-icon>
+                </a>
+
+                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Flinkedin.com%2Fin%2Fsandeep-bhattarai-300b01284%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExcGNBVmpiZGtJcnB1cWh2ZXNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR6Jc0eZDHs2s8XIhqlxTcBtvJ-Ly0Ww30gFV7Ol1QmQRG3jB-Uu59oE8Ggqbw_aem_yk0VrQD-X2hGHX9ghguQ4A&h=AT7pNlMxDUxfjfzO1vYnEMyqGFUDj8nnEhLyL_limUyjbrTI1nZPVVfizSh4xEP2-ZElpotZttf72-7YBI_TjrIolKrsqMp4sFMiZ_z-34juCAh0_y5lOVaUhS3tfZi75gda8Q" target="_blank" aria-label="LinkedIn">
+                    <ion-icon class="icons" name="logo-linkedin"></ion-icon>
+                </a>
+
+                <a href="https://www.youtube.com/channel/UC0mDUE9rqYdwqVFi_6B2h9Q" target="_blank" aria-label="YouTube">
+                    <ion-icon class="icons" name="logo-youtube"></ion-icon>
+                </a>
+            </div>
+
+            <div class="f-credits">
+                <p style="filter: grayscale(100%)">
+                    Copyright ©2025 All rights reserved | This template is made with ❤️
+                    by Sandeep Bhattarai
+                </p>
+            </div>
+        </div>
+    </footer>
+
+     <!-- =============================================
+                  our script section start
+    ===================================================-->
+
+ <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
