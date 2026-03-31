@@ -73,7 +73,7 @@ li{
     align-items: center;
 }
 .header .logo{
-    height: 6.4rem;
+    height: 20rem;
     width: auto;
     max-width: 160px;
     display: block;
@@ -892,7 +892,7 @@ li{
         }
 
         .header .logo{
-            height: 5.5rem;
+            height: 15rem;
             width: auto;
             max-width: 140px;
         }
@@ -1059,7 +1059,7 @@ li{
     }
 
     .header .logo{
-        height: 5rem;
+        height: 12rem;
         width: auto;
         max-width: 120px;
     }
@@ -1135,7 +1135,7 @@ li{
     }
 
     .header .logo{
-        height: 50px;
+        height: 10rem;
         width: auto;
         max-width: 150px;
     }
